@@ -1,0 +1,33 @@
+# Core Deep Learning & NLP
+torch>=2.0.0
+transformers>=4.35.2
+sentence-transformers>=2.2.2
+scikit-learn>=1.3.0
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Biomedical NLP & Knowledge Grounding
+spacy>=3.7.0
+scispacy>=0.5.4
+# SciSpaCy Models:
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_craft_md-0.5.4.tar.gz
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_jnlpba_md-0.5.4.tar.gz
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_scibert-0.5.4.tar.gz
+umls-downloader>=0.1.2
+
+# Graph Database & Network Processing
+neo4j>=5.14.0
+networkx>=3.1
+
+# Data Processing & Utilities
+datasets>=2.14.0
+pandas>=2.0.0
+tqdm>=4.66.0
+accelerate>=0.24.0
+openpyxl>=3.1.0
+
+# Optional Prompting & LLM Ingestion
+ollama>=0.1.0
+langchain>=0.1.0
